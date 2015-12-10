@@ -20,6 +20,7 @@ public:
 			myRobot(0, 1),	// initialize the RobotDrive to use motor controllers on ports 0 and 1
 			stick(0)
 	{
+		myRobot.SetExpiration(0.1);
 	}
 
 	/**
